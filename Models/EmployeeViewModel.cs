@@ -4,9 +4,9 @@ namespace Northwind.Models
 {
     public class EmployeeWithPassword
     {
-        // public Employee Employee { get; set; }
-        // [UIHint("password"), Required]
-        // public string Password { get; set; }
+        public Employee Employee { get; set; }
+        [UIHint("password"), Required]
+        public string Password { get; set; }
     }
         public class SignInModel
     {
